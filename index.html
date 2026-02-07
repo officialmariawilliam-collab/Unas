@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Video Flow</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  background:#000;
+  font-family:sans-serif;
+  color:#fff;
+}
+.page{
+  max-width:420px;
+  margin:0 auto;
+}
+.video-box{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.video-wrap{
+  height:70vh;
+  background:#000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:14px;
+  overflow:hidden;
+}
+video{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  background:#000;
+}
+.actions{
+  margin-top:12px;
+  display:flex;
+  gap:10px;
+}
+.btn{
+  flex:1;
+  padding:12px;
+  border-radius:10px;
+  text-align:center;
+  font-weight:bold;
+  text-decoration:none;
+}
+.download{
+  background:#e74c3c;
+  color:#fff;
+}
+.next{
+  background:#2ecc71;
+  color:#000;
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+<!-- VIDEO 1 -->
+<div class="video-box" id="v1">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_1" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/rxr3bj.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_1" target="_blank">Download</a>
+    <a class="btn next" href="#v2">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 2 -->
+<div class="video-box" id="v2">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_2" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/9094e6.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_2" target="_blank">Download</a>
+    <a class="btn next" href="#v3">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 3 -->
+<div class="video-box" id="v3">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_3" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/nzxvam.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_3" target="_blank">Download</a>
+    <a class="btn next" href="#v4">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 4 -->
+<div class="video-box" id="v4">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_4" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/qkbcss.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_4" target="_blank">Download</a>
+    <a class="btn next" href="#v5">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 5 -->
+<div class="video-box" id="v5">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_5" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/tpbwmo.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_5" target="_blank">Download</a>
+    <a class="btn next" href="#v6">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 6 -->
+<div class="video-box" id="v6">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_6" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/art5ys.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_6" target="_blank">Download</a>
+    <a class="btn next" href="#v7">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 7 -->
+<div class="video-box" id="v7">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_7" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/ed2n7s.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_7" target="_blank">Download</a>
+    <a class="btn next" href="#v8">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 8 -->
+<div class="video-box" id="v8">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_8" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/bky9w4.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_8" target="_blank">Download</a>
+    <a class="btn next" href="#v9">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 9 -->
+<div class="video-box" id="v9">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_9" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/9094e6.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_9" target="_blank">Download</a>
+    <a class="btn next" href="#v10">Next</a>
+  </div>
+</div>
+
+<!-- VIDEO 10 -->
+<div class="video-box" id="v10">
+  <div class="video-wrap">
+    <video controls playsinline data-ad="ADSTERRA_10" onclick="handlePlay(this)">
+      <source src="https://files.catbox.moe/tpbwmo.mp4">
+    </video>
+  </div>
+  <div class="actions">
+    <a class="btn download" href="ADSTERRA_10" target="_blank">Download</a>
+    <a class="btn next" href="#v1">Restart</a>
+  </div>
+</div>
+
+</div>
+
+<script>
+function handlePlay(video){
+  // sirf pehli click pe ad
+  if(video.dataset.opened) return;
+
+  video.dataset.opened = "1";
+
+  // user click ke sath ad open
+  window.open(video.dataset.ad, "_blank");
+
+  // thora rukao
+  video.pause();
+
+  // phir video play (safe delay)
+  setTimeout(() => {
+    video.play();
+  }, 600);
+}
+</script>
+
+</body>
+</html>
